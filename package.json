@@ -1,0 +1,35 @@
+{
+  "name": "easy-create",
+  "version": "0.0.3",
+  "description": "A CLI to bootstrap my projects",
+  "main": "src/index.js",
+  "bin": {
+    "@nicematthew/easy-create": "bin/create-project",
+    "easy-create": "bin/create-project"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cli",
+    "easy-create"
+  ],
+  "files": [
+    "bin/",
+    "src/",
+    "templates/"
+  ],
+  "author": "nice Matthew",
+  "license": "ISC",
+  "dependencies": {
+    "arg": "^4.1.1",
+    "chalk": "^2.4.2",
+    "esm": "^3.2.25",
+    "inquirer": "^7.0.0",
+    "is-promise": "^2.1.0",
+    "ncp": "^2.0.0"
+  }
+}
