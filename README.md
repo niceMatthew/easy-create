@@ -1,4 +1,4 @@
-<h1 align="center">create project</h1>
+<h1 align="center">easy create</h1>
 
 <div align="center">
 
@@ -10,8 +10,8 @@
 
 |  参数| 说明 | 类型  | 默认值 |
 | --- | --- | --- | --- |
-| <templateName> | 模板名字,必填  | typescript\javascript | null |
-| <TargetDirectoryName> | 建立项目的名称，默认当前目录  | String  | 当前目录 |
+| "templateName" | 模板名字,必填  | typescript\javascript | null |
+| "TargetDirectoryName" | 建立项目的名称，默认当前目录  | String  | 当前目录 |
 | --git | 是否初始化git目录 | String  | 当前目录 |
 | --install | 是否自动下载node依赖包 | Boolean | - |
 
@@ -41,6 +41,7 @@ easy-create javascript projectName --install --git
 ## 📦 安装
 
 ```bash
+npx easy-create
 npm install easy-create -g
 ```
 
