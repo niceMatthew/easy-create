@@ -1,0 +1,100 @@
+.iceDesignProAside {
+  &.iceDesignLayoutAside {
+    overflow: hidden;
+    :global {
+      .next-nav,
+      .next-nav-sub-nav-item {
+        background: transparent;
+      }
+      .next-nav.next-normal {
+        border: none;
+      }
+      .next-nav .next-nav-item.next-menu-item {
+        color: white;
+        background: transparent;
+      }
+      .next-nav .next-menu-item-text i {
+        margin-right: 8px;
+        font-weight: 500;
+      }
+      .next-nav .next-menu-sub-menu .next-menu-item {
+        transition: none;
+
+        &.next-selected,
+        &:hover {
+          background: #444;
+          // border-radius: $corner-2;
+        }
+      }
+    }
+  }
+}
+:global .next-overlay-wrapper .next-nav-icon-placeholder {
+  display: none;
+}
+
+
+.liWrap {
+    .selectNavName {
+        color: #fff;
+        font-size: 14px;
+        margin-top: 2px;
+    }
+    .navName{
+        color: #fff;
+        font-size: 14px;
+        .icon-data {
+            width: 14px;
+            height: 14px;
+            vertical-align: middle;
+            margin-right: 12px;
+            display: inline-block;
+            background: url(../../../../assets/common/data.svg) no-repeat;
+            background-size: 100% 100%;
+        }
+    }
+    .icon-data {
+        width: 14px;
+        height: 14px;
+        vertical-align: middle;
+        margin-right: 12px;
+        display: inline-block;
+        background: url(../../../../assets/common/data.svg) no-repeat;
+        background-size: 100% 100%;
+    }
+
+    .icon-point {
+        width: 14px;
+        height: 14px;
+        vertical-align: middle;
+        margin-right: 12px;
+        display: inline-block;
+        background: url(../../../../assets/common/point.svg) no-repeat;
+        background-size: 100% 100%;
+    }
+
+    .icon-account {
+        width: 14px;
+        height: 14px;
+        vertical-align: middle;
+        margin-right: 12px;
+        display: inline-block;
+        background: url(../../../../assets/common/account.svg) no-repeat;
+        background-size: 100% 100%;
+    }
+}
+
+:global .ant-menu-item-selected, :global .ant-menu-item-active {   
+  span[class^="Aside_icon-point"] {
+    margin-top: 2px;
+    background: url(../../../../assets/common/point-a.svg) no-repeat;
+  }
+  span[class^="Aside_icon-data"] {
+    margin-top: 2px;
+    background: url(../../../../assets/common/data-a.svg) no-repeat;
+  }
+  span[class^="Aside_icon-account"] {
+    background: url(../../../../assets/common/account-a.svg) no-repeat;
+  }
+}
+

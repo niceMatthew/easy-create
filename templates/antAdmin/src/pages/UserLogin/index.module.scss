@@ -1,0 +1,16 @@
+.title{ 
+    width: 200px;
+    height: 122px;
+    background: url("../../assets/LoginTitle.svg") no-repeat;
+}
+.center {
+    display: flex;
+    justify-content: center;
+}
+.formWrapper{
+    width: 400px;
+    padding: 40px;
+    padding-bottom: 15px;
+    border-radius: 10px;
+    background: white;
+}

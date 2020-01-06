@@ -1,0 +1,26 @@
+.LoginForm {
+    border-radius: 10px;
+    background-Color: #fff;
+    :global {
+        .ant-tabs-tab-active{  
+            color: #333333;
+        }
+        .ant-tabs-ink-bar {
+            background-color: #333333;
+        }
+        .ant-tabs-tab:hover {
+            color: #333333;
+        }
+    }
+}
+.loginText{
+    color: #333;
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: center;
+}
+.RedirectContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

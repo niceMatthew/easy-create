@@ -1,0 +1,77 @@
+.modalWrap {
+    position: relative;
+    top: 50%;
+    transform: translate(0, -50%);
+    :global {
+        .ant-modal-body {
+            padding: 0;
+            padding-bottom: 40px;
+        }
+        .ant-modal-close {
+            display: none;
+        }
+    }
+    .title {
+        position: relative;
+        height: 100px;
+        background-color: #4784FF;
+        .logo {
+            position: absolute;
+            width: 62px;
+            height: 62px;
+            background: url(../../../assets/logo.png) no-repeat;
+            background-size: 100% 100%;
+            top: -40px;
+            left: 50%;
+            transform: translate(-50%, 0%);
+        }
+        h1 {
+            color: #fff;
+            font-size: 32px;
+            font-weight: 400;
+            text-align: center;
+            width: 100%;
+            line-height: 100px;
+        }
+    }
+    .content {
+        .tips {
+            display: block;
+            text-align: center;
+            width: 240px;
+            color: #333;
+            font-size: 20px;
+            margin: 30px auto;
+        }
+        .copy {
+            text-align: center;
+            color: #333;
+            font-size: 30px;
+            display: block;
+            .copyBtn {
+                display: inline-block;
+                font-size: 14px;
+                color: #286DF9;
+                margin-left: 12px;
+                line-height: 36px;
+                vertical-align: middle;
+                margin-top: -4px;
+                cursor: pointer;
+            }
+        }
+    }
+    .btnConfirm {
+        width: 320px;
+        height: 40px;
+        background: rgba(40,109,249,1);
+        border-radius: 6px;
+        color: #FFFFFF;
+        font-size: 16px;
+        text-align: center;
+        line-height: 40px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 30px;
+        cursor: pointer;
+    }
+}

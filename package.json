@@ -1,10 +1,10 @@
 {
-  "name": "easy-create",
-  "version": "0.0.5",
+  "name": "@auraxy/easy-create",
+  "version": "0.0.6",
   "description": "A CLI to bootstrap my projects",
   "main": "src/index.js",
   "bin": {
-    "@nicematthew/easy-create": "bin/create-project",
+    "@auraxy/easy-create": "bin/create-project",
     "easy-create": "bin/create-project"
   },
   "publishConfig": {
@@ -15,7 +15,8 @@
   },
   "keywords": [
     "cli",
-    "easy-create"
+    "easy-create",
+    "template"
   ],
   "files": [
     "bin/",
